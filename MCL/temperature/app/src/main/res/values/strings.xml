@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Temperature Conversion</string>
+    <string name="default_vale">0</string>
+    <string name="Hint_Default">Enter The Number Here</string>
+    <string name="Result_Hint">Results</string>
+    <string-array name="Temperature">
+        <item>Reamur to Celcius</item>
+        <item>Celcius to Reamur</item>
+        <item>Fahrenheit to Celcius</item>
+        <item>Celcius to Fahrenheit</item>
+        <item>Kelvin to Celcius</item>
+        <item>Celcius to Kelvin</item>
+    </string-array>
+</resources>
