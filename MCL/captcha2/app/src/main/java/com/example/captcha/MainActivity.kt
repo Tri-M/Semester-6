@@ -13,7 +13,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         val mobileField= findViewById<EditText>(R.id.mobileField)
         val captchaField=findViewById<TextView>(R.id.captchaField)
         val userInput=findViewById<EditText>(R.id.userInput)
@@ -45,7 +44,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun makeCaptcha(): String {
         var captcha=""
-        for(i in 1..10)
+        for(i in 1..5)
         {
             captcha+=(0..9).random()
         }
