@@ -22,9 +22,9 @@ graph = {'a': [('b', 2), ('c', 2)],
           'r': [('e', 2), ('f', 2)],
           'S': [('d', 3), ('e', 9), ('p', 1)]}
 
-heuristic = {'S': 0, 'a': 5, 'b': 7, 'c': 4, 'd': 7, 'e': 5, 'f': 2, 'G': 0, 'h':11, 'p': 14, 'q': 12, 'r': 3}
+hValue = {'S': 0, 'a': 5, 'b': 7, 'c': 4, 'd': 7, 'e': 5, 'f': 2, 'G': 0, 'h':11, 'p': 14, 'q': 12, 'r': 3}
 
-def astar(graph, start, goal):
+def aStar(graph, start, goal):
     visited = []
     path = []
     prev = {}
@@ -47,12 +47,12 @@ def astar(graph, start, goal):
             for i, c in graph[node]:
                 if i not in visited:
                     total_cost = cost + c
-                    h1 = heuristic[i]
-                    total = total_cost + h1 - heuristic[node]
+                    h1 = hValue[i]
+                    total = total_cost + h1 - hValue[node]
                     queue.put((total, i, node))
 
 
-visited, prev, path = (astar(graph, 'S', 'G'))
+visited, prev, path = (aStar(graph, 'S', 'G'))
 print("The visited nodes are:")
 print(visited)
 
