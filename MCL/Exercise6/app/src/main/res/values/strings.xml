@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Form</string>
+    <string name="title">Form</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="lastName">Last Name</string>
+    <string name="email">Email</string>
+    <string name="DOB">Date of Birth</string>
+    <string name="dob">Date of birth</string>
+    <string name="Phone">Phone</string>
+
+    <string-array name="genderOptions">
+    <item>Male</item>
+    <item>Female</item>
+    <item>Other</item>
+
+    </string-array>
+</resources>

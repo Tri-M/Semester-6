@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "640019903659",
+    "project_id": "sample-17c50",
+    "storage_bucket": "sample-17c50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640019903659:android:ed52a2e9be6995b73df3ee",
+        "android_client_info": {
+          "package_name": "com.example.bookapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640019903659-5acmlkune14hi8q64m2m9do6mbss96af.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQhaV1eD2VSoltU1pbM8G7YKJZpMBTddY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640019903659-5acmlkune14hi8q64m2m9do6mbss96af.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640019903659:android:57a0a9c8dbdee0a33df3ee",
+        "android_client_info": {
+          "package_name": "com.example.emojistatus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640019903659-5acmlkune14hi8q64m2m9do6mbss96af.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQhaV1eD2VSoltU1pbM8G7YKJZpMBTddY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640019903659-5acmlkune14hi8q64m2m9do6mbss96af.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Emoji</string>
+    <string name="todo">TODO</string>
+    <string name="Angry">Button</string>
+    <string name="eat_cookie">Eat Cookie</string>
+    <string name="eat_cookie1">EAT COOKIE</string>
+    <string name="Hungry">"I 'm so hungry "</string>
+    <string name="i_m_so_hungry">I \'m so hungry</string>
+    <string name="Full">Full</string>
+    <string name="i_m_so_full">I \'m so full</string>
+    <string name="angry">angry</string>
+    <string name="i_m_so_hungry_1">I \'m so hungry</string>
+    <string name="eat">EAT COOKIE</string>
+    <string name="done">done</string>
+    <string name="finish">DONE</string>
+    <string name="full">I \'m so full</string>
+</resources>
